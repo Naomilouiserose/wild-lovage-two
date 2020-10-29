@@ -1,0 +1,4 @@
+2020-10-07T17:48:26+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Users/naomimartin/sites/wild-lovage-two/wp-includes/functions.php on line 4483
+
+2020-10-07T17:54:54+00:00 CRITICAL syntax error, unexpected ':' in /Users/naomimartin/sites/wild-lovage-two/wp-content/themes/sprout-spoon-child/category-recipes.php on line 13
+

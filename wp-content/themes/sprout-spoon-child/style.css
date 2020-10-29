@@ -1,0 +1,605 @@
+/*
+Theme Name: Sprout & Spoon Child Theme
+Theme URI: http://example.com/sprout-spoon-child/
+Description: A child theme of sprout & spoon food blog
+Author: naomilouiserose
+Author URI: http://example.com
+Template: sprout-spoon
+Version: 1.1
+Text Domain: sprout-spoon-child
+License: Themeforest Licence
+License URI: http://themeforest.net/licenses
+Tags: white, light, featured-images, featured-image-header, custom-colors
+*/
+
+  h1, h2, h3, h4, h5, h6, .post-entry blockquote p, .entry-content blockquote p, .more-link, .by, .item-related span.date, .side-pop-content span.date, #top-search input
+  { font-family: 'Raleway', sans-serif;}
+
+
+  /* HEADER STYLES */
+
+  #header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  /* FOOTER STYLES */
+
+  #footer-copyright .container {
+    text-align: center;
+  }
+
+  #footer-copyright .container h3 {
+    font-size: 0.8em;
+    font-weight: lighter;
+  }
+
+  #footer-social {
+    display: none;
+  }
+
+  /* HOMEPAGE STYLES */
+
+  .social-icons a {
+    padding-left: 10px;
+  }
+
+  .social-icons i {
+    font-size: 1.1em;
+  }
+
+  #post-20 .post-header {
+    display: none;
+  }
+
+  #post-20 .post-meta {
+    display: none;
+  }
+
+  #post-20 .post-comments {
+    display: none;
+  }
+
+  #post-20 .post-entry {
+    padding: 60px 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #post-20 .post-entry p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 1.3em;
+    line-height: 1.5;
+  }
+
+  .blog-post figure {
+    margin: 0 auto;
+  }
+
+  .blog-post {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 30px;
+    width: 50%;
+  }
+
+  .blog-post h4 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #95AF7E;
+  }
+
+  .blog-post h3 {
+    text-transform: capitalize;
+    font-size: 1.7em;
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+
+  .recent-posts .blog-post p {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .blog-post img {
+    margin-bottom: 10px;
+  }
+
+  .read-more-link {
+    margin-bottom: 30px;
+  }
+
+  #instagram-footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .mc4wp-form-fields p {
+    padding-top: 10px;
+  }
+
+  .instagram-header {
+    padding: 60px 0 0 0;
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  /* ABOUT PAGE STYLES */
+
+  #content {
+    padding-top: 20px;
+  }
+
+  #post-11 {
+    max-height: 70px;
+  }
+
+  #post-22 .post-header {
+    margin: 0;
+  }
+
+  #post-22 h1 {
+  color: #1e321e;
+  margin: 0;
+  }
+
+  .about-section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .about-section .about-image {
+  padding-top: 0;
+  }
+
+  #post-22 .post-meta {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  #post-22 .post-comments {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .about-section p {
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 45%;
+  }
+
+  .policy-page-link {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* GALLERY STYLES PAGE */
+
+  #main .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  #post-101 h1 {
+    display: none;
+  }
+
+  /* CONTACT PAGE STYLES */
+
+  .page-id-54 #content {
+    display: flex;
+    justify-content: center;
+  }
+
+  #main .post-author {
+    display: none;
+  }
+
+  #post-54 p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 1.1em;
+  }
+
+  .page-template-page-success #content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .success-message {
+    min-height: 200px;
+  }
+
+  .success-message h3 {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  /* BLOG PAGE STYLES */
+
+  .blog-page-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .blog-page-container #main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 850px;
+  }
+
+  .sp-grid {
+    align-self: center;
+    width: 100%;
+  }
+
+  .sp-grid li {
+    margin-left: 50px;
+    padding-right: 25px;
+  }
+
+  .sp-grid #post-61 .post-img {
+    padding-bottom: 30px;
+  }
+
+  .pagination {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+
+  .pagination .older {
+    order: 2;
+    padding: 0 10px;
+  }
+
+    .pagination .newer {
+      order: 1;
+      padding: 0 10px;
+    }
+
+  /* CATEGORY PAGE STYLES */
+
+  .category-container #content .category {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  #main .category-page {
+    display: flex;
+    align-self: center;
+    flex-flow: column wrap;
+  }
+
+  /* SINGLE POST STYLES */
+
+  .single-post #content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .post-entry {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+
+  .post-entry figure {
+    text-align: center;
+  }
+
+  /* PRIVACY POLICY PAGE STYLES */
+
+  .privacy-policy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  /* SHOP PAGE STYLES */
+
+  .page-id-206 #sidebar {
+    display: none;
+  }
+
+  .page-id-206 #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .page-id-207 #sidebar {
+    display: none;
+  }
+
+  .page-id-207 #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .page-id-208 #sidebar {
+    display: none;
+  }
+
+  .page-id-208 #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .wc-proceed-to-checkout .checkout-button {
+    background-color: #95AF7E;
+  }
+
+  .single-product #main .post-meta {
+    display: none;
+  }
+
+  .single-product #main .post-comments {
+    display: none;
+  }
+
+  .single-product #main .post-entry {
+    margin-bottom: 100px;
+  }
+
+  /* CASE STUDY PAGE STYLES */
+
+  .post-type-archive #wrapper {
+
+  }
+
+  .case-studies-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+   .case-studies {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     flex-flow: column wrap;
+   }
+
+   .case-study {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+   }
+
+   .case-study-images {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     flex-flow: column wrap;
+     margin-top: 10px;
+     margin-bottom: 50px;
+   }
+
+   .case-study-images figure {
+     margin-top: 10px;
+   }
+
+   .case-study figure img {
+     align-self: center;
+     width: 100%;
+   }
+
+    .case-study aside {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-flow: column wrap;
+    }
+
+   .case-study aside h2 {
+     text-align: center;
+     font-weight: bolder;
+     font-size: 1.4em;
+     text-transform: uppercase;
+     margin-top: 20px;
+   }
+
+    .case-study aside h4 {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+   .case-study aside img {
+     align-self: center;
+     margin-top: 10px;
+   }
+
+  .case-study aside .video-link {
+    padding-top: 20px;
+    font-size: 1.5em;
+  }
+
+
+
+
+  @media only screen and (min-width: 300px) {
+
+    .blog-post {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .blog-post p {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .about-section {
+      width: 100%;
+    }
+
+    .about-section p {
+      width: 100%;
+    }
+
+    .blog-page-container #main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      width: 740px;
+    }
+
+    .sp-grid {
+      align-self: center;
+      width: 100%;
+    }
+
+    .sp-grid li {
+      margin-left: 0;
+      padding-right: 0;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    #logo {
+      width: 50%;
+    }
+
+      .blog-post {
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .blog-post p {
+        width: 70%;
+      }
+
+      .about-section p {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        width: 55%;
+      }
+
+  @media only screen and (min-width: 1024px) {
+
+    #logo {
+      width: 40%;
+    }
+
+    .blog-post {
+      margin-left: 30px;
+      width: 50%;
+    }
+
+    .blog-post p {
+      width: 100%;
+    }
+
+    .blog-page-container #main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      width: 830px;
+    }
+
+    .sp-grid {
+      align-self: center;
+      width: 100%;
+    }
+
+    .sp-grid li {
+      margin-left: 15px;
+    }
+
+    /* CATEGORY PAGE STYLES */
+
+    .category-containter .category .category-page {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    .category-containter .category  .category-page ul {
+      display: flex;
+    }
+
+    .category-containter .category  .category-page li {
+    padding-left: 70px;
+    width: 25%;
+    }
+
+    .case-study aside h2 {
+      font-size: 1.4em;
+    }
+
+  }
+
+    @media only screen and (min-width: 1200px) {
+
+      .case-study-images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+      }
+
+      .case-study-images figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        padding-left: 30px;
+        padding-bottom: 10px;
+        flex-basis: auto;
+      }
+
+      .case-study-images figure img{
+        align-self: center;
+      }
+
+    }

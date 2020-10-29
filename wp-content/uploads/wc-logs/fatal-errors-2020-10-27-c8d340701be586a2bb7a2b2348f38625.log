@@ -1,0 +1,12 @@
+2020-10-27T15:30:13+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in /Users/naomimartin/sites/wild-lovage-two/wp-content/themes/sprout-spoon-child/archive-case_studies.php on line 47
+
+2020-10-27T15:59:37+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /Users/naomimartin/sites/wild-lovage-two/wp-content/themes/sprout-spoon-child/archive-case_studies.php on line 22
+
+2020-10-27T16:24:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_content() in /Users/naomimartin/sites/wild-lovage-two/wp-content/themes/sprout-spoon-child/archive-case_studies.php:45
+Stack trace:
+#0 /Users/naomimartin/sites/wild-lovage-two/wp-includes/template-loader.php(106): include()
+#1 /Users/naomimartin/sites/wild-lovage-two/wp-blog-header.php(19): require_once('/Users/naomimar...')
+#2 /Users/naomimartin/sites/wild-lovage-two/index.php(17): require('/Users/naomimar...')
+#3 {main}
+  thrown in /Users/naomimartin/sites/wild-lovage-two/wp-content/themes/sprout-spoon-child/archive-case_studies.php on line 45
+

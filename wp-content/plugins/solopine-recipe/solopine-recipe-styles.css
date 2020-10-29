@@ -1,0 +1,55 @@
+#solopine_meta{
+    overflow: hidden;
+    padding-bottom: 1em;
+}
+ 
+#solopine_meta p{
+    clear: both;
+	border-bottom:1px solid #e5e5e5;
+	padding-bottom:1em;
+}
+ 
+.prfx-row-title{
+    display: block;
+    float: left;
+    width: 200px;
+	line-height:30px;
+	font-weight:700;
+}
+.recipe-post .prfx-row-title {
+	width:130px;
+}
+ 
+.prfx-row-content{
+    float: left;
+    padding-bottom: 1em;
+}
+ 
+.prfx-row-content label{
+    display: block;
+    line-height: 1.75em;
+}
+.solopine-description {
+	display:block;
+	font-size:11px;
+	color:#888;
+	margin-top:8px;
+}
+
+
+
+.recipe-post {
+	border:1px solid #ddd;
+	padding:5px 18px;
+}
+.recipe-post h3 {
+	font-size:14px;
+}
+
+.sp_shortcode {
+	font-size:14px;
+	background:#FFFFE0;
+	color:#000;
+	padding:3px 6px;
+	font-weight:700;
+}
